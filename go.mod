@@ -3,6 +3,7 @@ module BookingRoom
 go 1.21.6
 
 require (
+	github.com/DATA-DOG/go-sqlmock v1.5.2
 	github.com/gin-contrib/cors v1.5.0
 	github.com/gin-contrib/logger v1.1.0
 	github.com/gin-gonic/gin v1.9.1
@@ -20,7 +21,8 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 )
 
-require github.com/stretchr/testify v1.9.0 // indirect
+require github.com/stretchr/testify v1.9.0
+
 require (
 	github.com/bytedance/sonic v1.11.2 // indirect
 	github.com/chenzhuoyu/base64x v0.0.0-20230717121745-296ad89f973d // indirect
